@@ -1,6 +1,0 @@
-{
-  "name": "ch-tour-blanche-seconde-version",
-  "version": "2.0.0",
-  "private": true,
-  "scripts": { "build": "python3 src/build.py" }
-}
