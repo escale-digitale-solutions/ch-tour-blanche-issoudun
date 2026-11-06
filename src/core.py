@@ -272,7 +272,7 @@ def page(path, title, desc, body, *, line="inst", active="", crumbs=None, group=
 <meta name="theme-color" content="#102f4a">
 <meta property="og:title" content="{e(full_title)}">
 <meta property="og:description" content="{e(desc)}">
-<meta property="og:image" content="https://ch-tour-blanche-seconde-version.florouss.chatgpt.site/assets/images/hopital.jpg">
+<meta property="og:image" content="https://www.ch-issoudun.fr/wp-content/uploads/2021/12/DSC5276-copie-1024x684.jpg">
 <meta property="og:locale" content="fr_FR">
 <link rel="icon" href="/assets/images/logo-hopital.jpg" type="image/jpeg">
 <link rel="preload" href="/assets/fonts/manrope-400.ttf" as="font" type="font/ttf" crossorigin>
