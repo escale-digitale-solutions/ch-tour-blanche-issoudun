@@ -1,5 +1,9 @@
 """Gabarit commun : en-tête, navigation, pied, composants."""
 import html, json, re
+from hashlib import sha256
+from pathlib import Path
+
+WARM_CSS_VERSION = sha256((Path(__file__).parent / "assets" / "warm.css").read_bytes()).hexdigest()[:12]
 
 SITE_NAME = "Centre Hospitalier de la Tour Blanche"
 UP = "https://www.ch-issoudun.fr/wp-content/uploads/"
@@ -277,7 +281,7 @@ def page(path, title, desc, body, *, line="inst", active="", crumbs=None, group=
 <link rel="icon" href="/assets/images/logo-hopital.jpg" type="image/jpeg">
 <link rel="preload" href="/assets/fonts/manrope-400.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
-<link rel="stylesheet" href="/assets/warm.css">
+<link rel="stylesheet" href="/assets/warm.css?v={WARM_CSS_VERSION}">
 <link rel="stylesheet" href="/assets/assistant.css">
 <script>try{{var h=document.documentElement,s=localStorage.getItem('chtb:size'),c=localStorage.getItem('chtb:contrast');if(s&&s!='normal')h.setAttribute('data-size',s);if(c&&c!='normal')h.setAttribute('data-contrast',c)}}catch(e){{}}</script>
 <script type="application/ld+json">{JSONLD}</script>
