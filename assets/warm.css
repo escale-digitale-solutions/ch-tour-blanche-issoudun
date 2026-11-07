@@ -6,7 +6,7 @@
   --ink-3: #596d6c;
   --blue: #086c91;
   --blue-dark: #075470;
-  --chalk: #f7f6ed;
+  --chalk: #ffffff;
   --rule: #dbe3d9;
   --rule-strong: #9aafa6;
   --sun: #f4dc75;
@@ -24,13 +24,13 @@
   --prev-t: #fcf3ce;
   --urg-t: #fff0e8;
   --inst-t: #e6eee5;
-  --cream: #fffaf0;
+  --cream: #ffffff;
   --sage: #dbead9;
   --peach: #fae6dc;
   --focus: #a87900;
 }
 
-body { background: #fffdf8; }
+body { background: #ffffff; }
 ::selection { background: var(--sun); color: var(--ink); }
 .head { background: #fff; border-bottom-color: #e6e8df; }
 .nav { border-top-color: #edf0e9; }
@@ -132,7 +132,7 @@ body { background: #fffdf8; }
 }
 
 .quick-grid { position: relative; z-index: 2; gap: 17px; margin-top: -30px; padding-block: 0 8px; }
-.quick-card { border: 1px solid #e5dfc5; border-radius: 18px; padding: 25px 24px 24px; box-shadow: 0 5px 0 #fffdf8; }
+.quick-card { border: 1px solid #e5dfc5; border-radius: 18px; padding: 25px 24px 24px; box-shadow: 0 5px 0 #ffffff; }
 .quick-card:nth-child(4n+1) { background: #fbefbc; border-color: #f0e3b0; }
 .quick-card:nth-child(4n+2) { background: #e3eddb; border-color: #d6e4cd; }
 .quick-card:nth-child(4n+3) { background: #fae6dc; border-color: #f0d9ce; }
@@ -168,7 +168,7 @@ body { background: #fffdf8; }
 .care-extra { margin-top: 26px; border-top-color: #e0e7d9; padding-block: 24px 0; gap: 14px 23px; }
 .care-extra p { color: #586b5a; }
 
-.story-section { background: #f0f4e8; }
+.story-section { background: #ffffff; }
 .hospital-story { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; align-items: stretch; }
 .hospital-story > figure { position: relative; margin: 0; min-width: 0; }
 .hospital-story > figure img { height: 100%; min-height: 450px; max-height: 600px; object-fit: cover; border-radius: 26px 0 0 26px; }
@@ -194,24 +194,24 @@ body { background: #fffdf8; }
 .news-copy p { color: #52645c; font-size: .89rem; }
 .news-copy > a { font-size: .85rem; }
 
-.careers-banner { background: #245a4d; border-radius: 28px; padding: 50px; margin-bottom: 76px; gap: 60px; }
-.careers-banner::before { content: ""; position: absolute; width: 320px; height: 255px; right: 2%; bottom: -160px; border-radius: 80% 0 80% 0; transform: rotate(-12deg); background: #53886e3d; pointer-events: none; }
-.careers-banner::after { top: -145px; right: 35%; width: 270px; height: 330px; background: #68917724; border: 0; border-radius: 80% 0 80% 0; transform: rotate(15deg); }
+.careers-banner { background: var(--blue); border-radius: 28px; padding: 50px; margin-bottom: 76px; gap: 60px; }
+.careers-banner::before { content: ""; position: absolute; width: 320px; height: 255px; right: 2%; bottom: -160px; border-radius: 80% 0 80% 0; transform: rotate(-12deg); background: #4caad83d; pointer-events: none; }
+.careers-banner::after { top: -145px; right: 35%; width: 270px; height: 330px; background: #7cc3e024; border: 0; border-radius: 80% 0 80% 0; transform: rotate(15deg); }
 .careers-copy .eyebrow { color: #f6df8a; }
 .careers-copy h2 { font-size: clamp(2rem, 3vw, 2.65rem); }
-.careers-copy p { color: #e0eadc; font-size: .96rem; line-height: 1.8; }
-.careers-copy > .btn, .careers-banner > .btn { background: var(--sun); border-color: var(--sun); color: #284634; box-shadow: none; }
+.careers-copy p { color: #e7f5fb; font-size: .96rem; line-height: 1.8; }
+.careers-copy > .btn, .careers-banner > .btn { background: var(--sun); border-color: var(--sun); color: var(--blue-dark); box-shadow: none; }
 .careers-copy > .btn:hover, .careers-banner > .btn:hover { background: #ffe699; border-color: #ffe699; }
-.careers-aside { border-left-color: #adc7af59; }
-.careers-aside > a { color: #e3eddf; border-top-color: #adc7af59; }
+.careers-aside { border-left-color: #b4d8ed59; }
+.careers-aside > a { color: #edf8fe; border-top-color: #b4d8ed59; }
 .careers-aside h3 { font-size: 1.2rem; }
 .careers-aside .quick-icon { color: #f6df8a; }
-.home-contact { background: #f7efce; border-top: 1px solid #efe4b6; padding-block: 37px; }
-.home-contact .eyebrow { color: #68602d; }
-.home-contact h2 { color: #3d513a; }
-.contact-number { color: #224e48; }
-.contact-number span { color: #59644b; }
-.contact-number svg { color: #39715a; }
+.home-contact { background: #ffffff; border-top: 1px solid var(--rule); padding-block: 37px; }
+.home-contact .eyebrow { color: var(--blue-dark); }
+.home-contact h2 { color: var(--ink); }
+.contact-number { color: var(--blue-dark); }
+.contact-number span { color: var(--ink-2); }
+.contact-number svg { color: var(--blue); }
 
 /* Les mêmes repères chaleureux accompagnent chaque page intérieure. */
 .phead { background: var(--line-t); border-bottom-color: #dfe5d7; overflow: hidden; }
@@ -271,13 +271,13 @@ dialog.search::backdrop { background: #183d3d8c; }
 .s-res a.sel, .s-res a:hover { background: #f0f4e4; }
 .mobbar { background: #fffef9; border-top-color: #dbe3d3; }
 
-.foot { background: #173e3e; color: #e2eadd; padding-block: 56px 28px; }
-.foot a { color: #e2eadd; }
-.foot h2 { color: #fff5ce; }
-.foot address { color: #d9e4d6; }
+.foot { background: var(--blue-dark); color: #e6f3fb; padding-block: 56px 28px; }
+.foot a { color: #e6f3fb; }
+.foot h2 { color: #ffffff; }
+.foot address { color: #e0eff8; }
 .foot .ftel { color: #f7df8d; }
-.foot-b { border-top-color: #819d8a4d; color: #c0d1bc; }
-.foot .proto { color: #b7cdbb; }
+.foot-b { border-top-color: #8ebdd54d; color: #bad9e8; }
+.foot .proto { color: #c5dfed; }
 .foot .footer-brand .brand-logo { background: #fff; }
 
 /* La disposition reste confortable sur tablette et sur petits Android. */
@@ -398,7 +398,7 @@ dialog.search::backdrop { background: #183d3d8c; }
   .careers-copy h2 { font-size: 1.95rem; }
   .careers-copy p { font-size: .94rem; }
   .careers-copy > .btn { font-size: .85rem; }
-  .careers-aside { border-top-color: #adc7af59; }
+  .careers-aside { border-top-color: #b4d8ed59; }
   .careers-aside h3 { font-size: 1.15rem; }
   .home-contact { padding-block: 31px; }
   .phead .wrap { padding-block: 21px 33px; }
