@@ -84,7 +84,7 @@ NAV = [
      ("Centre périnatal de proximité", "/services/centre-perinatal.html"),
      ("Centre de santé sexuelle", "/services/sante-sexuelle.html")]),
  ]),
- ("age", "Grand âge", "/services/ehpad.html", "age", [
+ ("age", "Gériatrie", "/services/ehpad.html", "age", [
    ("Vivre en EHPAD", "/services/ehpad.html", "age", [
      ("Comparer les résidences", "/services/ehpad.html"),
      ("Bel Air et Les Mésanges", "/services/ehpad-bel-air.html"),
